@@ -26,6 +26,8 @@
    	scanf("%d%d", &a, &b); 
 	c = add(a, b);
         c = sub(a, b);
+        c = mul(a, b);
+
    	printf("%d + %d = %d", a, b, c);
 	return 0;
  }
